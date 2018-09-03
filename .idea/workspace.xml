@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/main.cpp" description="player-&gt;gameScore += victory.points;" line="158" />
+    <bookmark url="file://$PROJECT_DIR$/main.cpp" description="player-&gt;gameScore += victory.points;" line="161" />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
@@ -15,8 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="582914a8-df12-4634-a801-c8c125189d88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellowolrd.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +55,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="11714" />
+          <entry key="cpp" value="12742" />
           <entry key="h" value="1224" />
           <entry key="txt" value="43" />
         </counts>
@@ -64,7 +63,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="12938" />
+          <entry key="ObjectiveC" value="13966" />
           <entry key="PLAIN_TEXT" value="42" />
         </counts>
       </usages-collector>
@@ -76,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="33" />
+            <state relative-caret-position="548">
+              <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
               <folding>
                 <element signature="e#37#56#0" expanded="true" />
               </folding>
@@ -135,8 +134,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="847" />
-    <option name="y" value="34" />
+    <option name="x" value="998" />
+    <option name="y" value="23" />
     <option name="width" value="1447" />
     <option name="height" value="939" />
   </component>
@@ -213,15 +212,15 @@
       <workItem from="1535885882911" duration="3370000" />
       <workItem from="1535917991333" duration="14951000" />
       <workItem from="1535936309947" duration="2576000" />
-      <workItem from="1535938897531" duration="9762000" />
+      <workItem from="1535938897531" duration="10947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83240000" />
+    <option name="totallyTimeSpent" value="84425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1036" y="84" width="1447" height="939" extended-state="0" />
+    <frame x="998" y="23" width="1447" height="939" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11174377" />
@@ -285,8 +284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="33" />
+        <state relative-caret-position="548">
+          <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
           </folding>

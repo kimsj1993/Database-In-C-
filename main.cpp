@@ -115,6 +115,8 @@ void addVictory(int gameID, int victoryID, string victoryName, int victoryPoint)
 }
 void plays(int playerID, int gameID, string inGameName)
 {
+    //look for game table to insert player info using map data structure so that It can connect Game ID
+    // Player ID and in game name
     vector<Game>::iterator it = findGame(gameID);
     it->gameHistory.insert(pair<int, string>(playerID, inGameName));
 
@@ -131,7 +133,8 @@ void addFriends(int playerID1, int playerID2)
 }
 void winVictory(int playerID, int gameID, int victoryID)
 {
-
+    //search player db for storing this victory in the vector in player object and also put the winner's info at the vector in Victory object so that
+    //It can store who got the what victory. Moreover, check if the victory is already taken in the game
     vector<Player>::iterator player;
     vector<Victory>::iterator victory;
     player = findPlayer(playerID);
@@ -166,6 +169,7 @@ void winVictory(int playerID, int gameID, int victoryID)
 
 void friendsWhoPlay(int playerID, int gameID)
 {
+    // search player db and game db so that we can see whose freind of mine playing the game
     Player player = *findPlayer(playerID);
     Game game = *findGame(gameID);
 
@@ -184,7 +188,7 @@ void friendsWhoPlay(int playerID, int gameID)
 }
 
 void comparePlayers(int playerID1, int playerID2, int gameID)
-{
+{ // by search the db, compare two player's score and victories
     Player player1 = * findPlayer(playerID1);
     int gameSCore = 0;
     vector<Game>::iterator gIt1 = findGame(gameID);
@@ -225,6 +229,7 @@ void comparePlayers(int playerID1, int playerID2, int gameID)
 }
 void summarizePlayer(int playerID)
 {
+    // printing the record of all player's friends, games the player plays and total score
     int nVictory = 0;
     int gameScore = 0;
     Player player = *findPlayer(playerID);
@@ -290,7 +295,7 @@ void summarizeGame(int gameID)
 }
 
 void summarizeVictory(int gameID, int victoryID)
-{
+{ //priting a list of player who have achieved a victory and the percentage of players who play that game who have the victory
     int counter = 0;
     Game game = *findGame(gameID);
 
@@ -445,6 +450,7 @@ int main() {
     int temp = 1;
 
     cout << "Enter quit to stop this program " << endl;
+    cout << "Or Enter commands";
     while(temp != 0)
     {
         getCommands();
