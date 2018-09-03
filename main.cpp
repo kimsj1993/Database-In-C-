@@ -274,6 +274,8 @@ void summarizePlayer(int playerID)
 }
 void summarizeGame(int gameID)
 {
+    //based on the input ID, it search game table and print out the name of game and list of players played the game
+    // and which victory is taken and how many it is taken
     Game game = *findGame(gameID);
 
     cout << "Game Name : " << game.name << "\n------------------\n";

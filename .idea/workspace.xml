@@ -55,7 +55,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="12742" />
+          <entry key="cpp" value="13017" />
           <entry key="h" value="1224" />
           <entry key="txt" value="43" />
         </counts>
@@ -63,7 +63,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="13966" />
+          <entry key="ObjectiveC" value="14241" />
           <entry key="PLAIN_TEXT" value="42" />
         </counts>
       </usages-collector>
@@ -75,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
+            <state relative-caret-position="420">
+              <caret line="281" column="31" lean-forward="true" selection-start-line="281" selection-start-column="31" selection-end-line="281" selection-end-column="31" />
               <folding>
                 <element signature="e#37#56#0" expanded="true" />
               </folding>
@@ -212,12 +212,12 @@
       <workItem from="1535885882911" duration="3370000" />
       <workItem from="1535917991333" duration="14951000" />
       <workItem from="1535936309947" duration="2576000" />
-      <workItem from="1535938897531" duration="10947000" />
+      <workItem from="1535938897531" duration="11303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84425000" />
+    <option name="totallyTimeSpent" value="84781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="998" y="23" width="1447" height="939" extended-state="0" />
@@ -284,8 +284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
+        <state relative-caret-position="420">
+          <caret line="281" column="31" lean-forward="true" selection-start-line="281" selection-start-column="31" selection-end-line="281" selection-end-column="31" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
           </folding>
