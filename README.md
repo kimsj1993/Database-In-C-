@@ -1,4 +1,4 @@
-# csce315project1
+# Game Record database in c++
 application for keeping track of video game players, what games they play, their activity in those games, and friendships between players. The application will also compile some of these data sources to output informative reports. This application will be similar in nature to Valve's Steam service or the website trueVictorys.com.
 
 
